@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>swiper_plugIn이용_화면 꽉차게</title>
+    <link rel="stylesheet" href="css/reset.css">    
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/basic.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+</head>
+<body>
+    <header>
+		<div class="header">
+			
+			<div class="menu_btn">
+				<span></span>
+				<span></span>
+			</div>
+			<div class="menu_bg">
+				<div class="menu_bg_inner">
+					<div class="gnb">
+						<ul>
+							<li><a href="javascript:void(0)">Main</a></li>
+							<li><a href="javascript:void(0)" class="pc">PC Web</a></li>
+							<li><a href="javascript:void(0)" class="Responsive">Responsive Web</a></li>
+                            <li><a href="javascript:void(0)" class="Responsive2">Responsive Web2</a></li>
+                            <li><a href="javascript:void(0)" class="mpbile">Mobile Web1</a></li>
+                            <li><a href="javascript:void(0)" class="Boots">Bootstrap</a></li>
+                            <li><a href="javascript:void(0)" class="Word">WordPress</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- menu_bg_inner -->
+			</div>
+		</div>
+    </header>
+
+    <div class="swiper mySwiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide section01">
+                <div class="visual">
+                    <video src="movie/01.mp4" autoplay muted loop></video>
+                </div>
+                <div class="main_intro">
+					<span class="txt01"><span>NEW</span> Web Publishing</span>
+					<div class="txt02"><strong><span>코딩이</span> 즐거운 퍼블리셔 <br>전지현 입니다.</strong></div>
+					<p>
+					항상 "할 수 있다"는 자신감으로 스스로 발전하는 모습을 보여드리겠습니다.<br>이를 통해 회사의 수익창출 결과로 동반성장을 이끌어 내겠습니다.<br>
+					마지막으로 웹 개발 트랜드를 주도하는 웹 퍼블리셔가 되겠습니다.
+					</p>
+                    <div class="btn_wrap">
+						<a  href="#">
+							<span>사이트 바로가기</span>
+						</a>
+					</div>					
+				</div>
+            </div>
+            <div class="swiper-slide section02">
+                <div class="visual">
+                    <img src="img/main_slide_img_01.png" alt="">
+                </div>
+				<div class="bg_opac"></div>
+                <div class="main_intro">
+					<span class="txt01"><span>PC</span>  사이트 리뉴얼</span>
+					<div class="txt02"><strong>OUTBACK<br> STACKHOUSE</strong></div>
+					<p>
+					제작기간 : 22.06.10 - 22.06.18<br>
+					기획 100% / 디자인 100% / 퍼블리싱 100%
+					</p>
+					<div class="btn_wrap">
+						<a  href="#">
+							<span>사이트 바로가기</span>
+						</a>
+					</div>
+				</div>
+            </div>
+            <div class="swiper-slide section03">
+                <div class="visual">
+                    <img src="img/main_slide_img_02.jpg" alt="">
+                </div>
+				<div class="bg_opac"></div>
+                <div class="main_intro">
+					<span class="txt01"><span>Responsive</span>  사이트 리뉴얼</span>
+					<div class="txt02"><strong>OUTBACK<br> STACKHOUSE</strong></div>
+					<p>
+					제작기간 : 22.06.10 - 22.06.18<br>
+					기획 100% / 디자인 100% / 퍼블리싱 100%
+					</p>
+					<div class="btn_wrap">
+						<a  href="#">
+							<span>사이트 바로가기</span>
+						</a>
+					</div>
+				</div>
+            </div>
+            
+            <div class="swiper-slide section04">
+                <div class="visual">
+                    <video src="movie/02.webm" autoplay muted loop></video>
+                </div>
+                <div class="main_intro">
+					<span class="txt01"><span>Responsive </span>  사이트2</span>
+					<div class="txt02"><strong>OUTBACK<br> STACKHOUSE</strong></div>
+					<p>
+					제작기간 : 22.06.10 - 22.06.18<br>
+					기획 100% / 디자인 100% / 퍼블리싱 100%
+					</p>
+					<div class="btn_wrap">
+						<a  href="#">
+							<span>사이트 바로가기</span>
+						</a>
+					</div>
+				</div>
+            </div>
+            
+            <div class="swiper-slide section05">
+                <div class="visual">
+                    <img src="img/main_slide_img_03.jpg" alt="">
+                </div>
+                <div class="main_intro">
+					<span class="txt01"><span>Bootstrap</span>  사이트 </span>
+					<div class="txt02"><strong>OUTBACK<br> STACKHOUSE</strong></div>
+					<p>
+					제작기간 : 22.06.10 - 22.06.18<br>
+					기획 100% / 디자인 100% / 퍼블리싱 100%
+					</p>
+					<div class="btn_wrap">
+						<a  href="#">
+							<span>사이트 바로가기</span>
+						</a>
+					</div>
+				</div>
+            </div>
+            
+            <div class="swiper-slide section06">
+                <div class="visual">
+                    <video src="movie/03.mp4" autoplay muted loop></video>
+                </div>
+                <div class="main_intro">
+					<span class="txt01"><span>Mobile</span>  사이트 </span>
+					<div class="txt02"><strong>OUTBACK<br> STACKHOUSE</strong></div>
+					<p>
+					제작기간 : 22.06.10 - 22.06.18<br>
+					기획 100% / 디자인 100% / 퍼블리싱 100%
+					</p>
+					<div class="btn_wrap">
+						<a  href="#">
+							<span>사이트 바로가기</span>
+						</a>
+					</div>
+				</div>
+            </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+         -->
+    </div> 
+    <div class="page_control">
+		<span class="prev_btn">PREV</span>
+		<i></i>
+		<span class="next_btn">NEXT</span>
+	</div> 
+    
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
